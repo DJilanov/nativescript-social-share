@@ -23,6 +23,10 @@ export function shareImage(image) {
   share([image]);
 }
 
+export function shareImageAndText(image, text) {
+  share([image, text]);
+}
+
 export function shareText(text) {
   share([text]);
 }
