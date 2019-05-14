@@ -19,11 +19,7 @@ function share(thingsToShare) {
     .presentViewControllerAnimatedCompletion(activityController, true, null);
 }
 
-export function shareImage(image) {
-  share([image]);
-}
-
-export function shareImageAndText(image, text) {
+export function shareImage(image, text) {
   share([image, text]);
 }
 
